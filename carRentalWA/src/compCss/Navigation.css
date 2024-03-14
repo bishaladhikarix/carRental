@@ -1,0 +1,11 @@
+.navi{
+    height: 7vh;
+    width: 100vw;
+    background-color: rgb(191, 163, 163);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    
+}
