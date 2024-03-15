@@ -1,0 +1,77 @@
+.navi{
+    height: 7vh;
+    width: 100vw;
+    background-color: rgb(191, 163, 163);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+
+
+/*for the logo*/
+.logo{
+    margin-left: 3vh;
+    background-color: aqua;
+}
+
+
+/* for navigation */
+.navs{
+    background-color: red;
+    
+    height: 6vh;
+    display: flex;
+    align-items: center;
+}
+.navs ul{
+    flex: 1;
+    list-style: none;
+    text-align: center;
+}
+.navs ul #top{
+    display: inline-block;
+    margin: 8vh;
+    cursor: pointer;
+    font-size: 3vh;
+}
+
+/* For the theme */
+.theme{
+    background-color: green;
+    height: 3.5vh;
+    width: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 1vh;
+    cursor: pointer;
+    
+    
+}
+
+/* Signup- login section */
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 4vh;
+    height: 5vh;
+    width: 12vh;
+    background-color: blueviolet;
+}
+.LogIn-btn{
+    height: 3vh;
+    width: 5vh;
+    border: none;
+    border-radius: 1vh;
+    font-size: 1.5vh;
+    cursor: pointer;
+}
+
+
+
+
+
+
