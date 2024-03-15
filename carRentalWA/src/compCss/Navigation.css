@@ -9,3 +9,29 @@
     
     
 }
+
+.navs{
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    background-color: brown;
+}
+
+.navs ul{
+    flex: 1;
+    list-style: none;
+    text-align: center;
+}
+.navs ul li{
+    display: inline-block;
+    margin: 3vh;
+    cursor: pointer;
+    font-size: 3vh;
+}
+
+
+.user{
+    height: 3vh;
+    background-color: blueviolet;
+}
+

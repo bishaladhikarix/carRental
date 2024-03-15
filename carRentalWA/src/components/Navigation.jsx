@@ -17,8 +17,15 @@ function Navigation(){
                 <ul>
                     <li>home</li>
                     <li>contact</li>
+                    <li>niga</li>
+                    <li>sthi</li>
                 </ul>
             </nav>
+            </div>
+
+            <div className="user">
+                <button className="LogIn-btn">LogIn</button>
+                <button className="SignUp-btn">SignUp</button>
             </div>
 
 
