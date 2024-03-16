@@ -20,7 +20,7 @@ function Navigation(){
                     <input type="text" className='search-box' id='top' placeholder='Search' />
 
                     <div className="Post-ad" id='top'>
-                        <p>Post Add</p>
+                        <p>Post Ad</p>
                     </div>
                     
                 </ul>
