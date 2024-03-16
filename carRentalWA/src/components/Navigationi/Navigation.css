@@ -5,6 +5,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: none;
+    border-radius: 2vh;
      
 }
 
@@ -13,13 +15,12 @@
 .logo{
     margin-left: 3vh;
     background-color: aqua;
+    cursor: pointer;
 }
 
 
 /* for navigation */
-.navs{
-    background-color: red;
-    
+.navs{ 
     height: 6vh;
     display: flex;
     align-items: center;
@@ -34,18 +35,29 @@
     margin: 8vh;
     cursor: pointer;
     font-size: 3vh;
+    
+}
+
+.search-box{
+    text-align: center;
+    border: none;
+    border-radius: 2vh;
+}
+
+.Post-ad:hover{
+    text-decoration: underline;
 }
 
 /* For the theme */
 .theme{
     background-color: green;
-    height: 3.5vh;
-    width: 6vh;
+    height: 4vh;
+    width: 4vh;
     display: flex;
     justify-content: center;
     align-items: center;
     border: none;
-    border-radius: 1vh;
+    border-radius: 50%;
     cursor: pointer;
     
     
@@ -59,7 +71,7 @@
     margin-right: 4vh;
     height: 5vh;
     width: 12vh;
-    background-color: blueviolet;
+   
 }
 .LogIn-btn{
     height: 3vh;
