@@ -82,6 +82,10 @@
     cursor: pointer;
 }
 
+.LogIn-btn:hover{
+    background-color: blanchedalmond;
+}
+
 
 
 

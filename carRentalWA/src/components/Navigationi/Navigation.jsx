@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom'
+
 import './Navigation.css';
 
 function Navigation(){
@@ -20,7 +22,8 @@ function Navigation(){
                     <input type="text" className='search-box' id='top' placeholder='Search' />
 
                     <div className="Post-ad" id='top'>
-                        <p>Post Ad</p>
+                        
+                        <p >Post Ad</p>
                     </div>
                     
                 </ul>
@@ -30,14 +33,15 @@ function Navigation(){
             </div>
 
             <div className="theme">
-                <p>Theme</p>
+                
 
             </div>
             
 
             {/* userinfomation */}
             <div className="user">
-                <button className="LogIn-btn">LogIn</button>
+                <Link to="/login"><button className="LogIn-btn">LogIn</button></Link>  
+                
                 
             </div>
             
