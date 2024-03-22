@@ -1,10 +1,13 @@
+
+import { Link } from 'react-router-dom';
+
 import './login.css'
 
 function LogIn(){
     
         return (
             <div className='login-container'>
-                this is llgin
+                <Link to='/signup'>Signup</Link>
             </div>
         );
    
