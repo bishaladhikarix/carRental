@@ -12,7 +12,7 @@ function Navigation(){
             {/* for the logo */}
 
             <div className="logo">
-                <img src="" alt="LOGO" />
+                <img className='Logo-img' src="./src/asset/Logo.jpg" alt="LOGO" />
             </div>
 
             {/* for some navigations */}
