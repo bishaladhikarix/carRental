@@ -1,4 +1,4 @@
-import { BrowserRouter , Routes , Route } from 'react-router-dom'
+import { createBrowserRouter , createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
 
 import Navigation from './components/Navigationi/Navigation'
 import LogIn from './components/loginsignup/LogIn'
@@ -8,17 +8,20 @@ import './App.css'
 
 function App() {
   
+  const router = createBrowserRouter(
+    createRoutesFromElements(
+    <Route path='/' element = {<Navigation></Navigation>}>
+      <Route path='login' element = {<LogIn></LogIn>}></Route>
+      <Route path='signup' element = {<SignUp></SignUp>}></Route>
+   </Route>
+    )
+  )
+
 
   return (
-      <BrowserRouter>
-      
-        <Routes>
-           <Route index element={<Navigation></Navigation>}></Route>
-           <Route path='login' element = {<LogIn></LogIn>}></Route>
-           <Route path='signup' element = {<SignUp></SignUp>}></Route>
-        </Routes>
-      
-      </BrowserRouter>
+
+    <RouterProvider router={router}></RouterProvider>
+
   )
 }
 
