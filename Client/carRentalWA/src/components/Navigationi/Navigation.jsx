@@ -1,4 +1,4 @@
-import {NavLink , Outlet} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 
 import './Navigation.css';
 
@@ -14,7 +14,7 @@ function Navigation(){
            {/* for the logo */}
 
            <div className="logo">
-               <img className='Logo-img' src="./src/asset/Logo.jpg" alt="LOGO" />
+              <NavLink to='/'><img className='Logo-img' src="./src/asset/Logo.jpg" alt="LOGO" /></NavLink>
            </div>
 
            {/* for some navigations */}
@@ -51,9 +51,7 @@ function Navigation(){
 
         </div>
 
-        <div className="content">
-            <Outlet/>
-        </div>       
+       
         
     </>
 

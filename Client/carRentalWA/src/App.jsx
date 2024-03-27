@@ -1,6 +1,7 @@
 import { createBrowserRouter , createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
+import Page from './components/Page'
 
-import Navigation from './components/Navigationi/Navigation'
+
 import LogIn from './components/loginsignup/LogIn'
 import SignUp from './components/loginsignup/signUp'
 
@@ -10,10 +11,10 @@ function App() {
   
   const router = createBrowserRouter(
     createRoutesFromElements(
-    <Route path='/' element = {<Navigation></Navigation>}>
-      <Route path='login' element = {<LogIn></LogIn>}></Route>
-      <Route path='signup' element = {<SignUp></SignUp>}></Route>
-   </Route>
+    <Route path='/' element = {<Page/>}>
+      <Route path='login' element = {<LogIn/>}></Route>
+      <Route path='signup' element = {<SignUp/>}></Route>
+    </Route>
     )
   )
 
